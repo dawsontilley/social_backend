@@ -1,6 +1,8 @@
 # Social Background API
 
-## Written Using Javascript 
+A backend api for social media with users and friends. 
+
+## Written Using Javascript NODE
 
 Utilizing MongoDB to create a backend API.
 
