@@ -17,7 +17,8 @@ router.route('/:userId').post(addThought);
 router
   .route('/:thoughtId')
   .get(getThoughtById)
-  .put(editThought)
+  .put(editThought);
+  router.route('/:userId/thoughtId')
   .delete(removeThought);
 
 //router.route('/:userId/reactions')
